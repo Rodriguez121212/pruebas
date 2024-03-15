@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(236, 207, 152);
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .container_menu {
+    display: flex;
+    justify-content: center;
+    align-items: botton;
+    height: 1vh;
+  }
+  
+.button-container {
+    height: 800px;
+    width: 800px;
+    text-align: center;
+    background-image:url("https://img.freepik.com/foto-gratis/capas-papel-rasgado-negro_23-2148748898.jpg?w=1380&t=st=1689036234~exp=1689036834~hmac=83808413ded05129376f5ef5ee09e0d90fdbbabb14473d2481d607eab6ba7dda");
+  }
+  
+.btn {
+    height: 100px;
+    width: 200px;
+    padding: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: cursor;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.botonimagen{
+    background-image:url(imagen.jpg);
+  }
+
+.btn_menu {
+    height: 80px;
+    width: 80px;
+    padding: 30px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: cursor;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:active {
+    box-shadow: box-shadow:
+      7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+    /* Moving button 4px to y-axis */
+}
+  
+.green {
+    background-color: rgb(224, 83, 137);}
+  
+.blue {
+    background-color: rgb(58, 109, 167);
+}
+  
+.red {
+    background-color: rgb(226, 178, 18);
+}
